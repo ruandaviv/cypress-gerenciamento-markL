@@ -28,9 +28,9 @@ Este projeto é um conjunto de testes automatizados para um aplicativo de gerenc
   - **`isRequired`**: Comando para verificar mensagens de validação.
   - **`removeTaskByName`**: Comando para remover uma tarefa por nome.
 ## Comandos personalizados
-`createTask(taskName)`: Cria uma nova tarefa com o nome fornecido. Se nenhum nome for fornecido, o campo de entrada será preenchido, mas a tarefa não será criada.
-`isRequired(targetMessage)`: Verifica se a mensagem de validação está correta para o campo de entrada.
-`removeTaskByName(taskName)`: Remove uma tarefa pelo nome fornecido via requisição HTTP DELETE.
+  - **`createTask(taskName)`**: Cria uma nova tarefa com o nome fornecido. Se nenhum nome for fornecido, o campo de entrada será preenchido, mas a tarefa não será criada.
+  - **`isRequired(targetMessage)`**: Verifica se a mensagem de validação está correta para o campo de entrada.
+  - **`removeTaskByName(taskName)`**: Remove uma tarefa pelo nome fornecido via requisição HTTP DELETE.
 
 ## Configuração
 
