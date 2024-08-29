@@ -36,3 +36,21 @@ Este projeto é um conjunto de testes automatizados para um aplicativo de gerenc
 
    ```bash
    npm install
+   
+2. **Configuração do Ambiente**
+
+   Configure a URL da API no arquivo de configuração do Cypress. Crie ou edite o arquivo cypress.json na raiz do projeto e adicione o seguinte:
+   
+   ```bash
+   {"apiUrl": "http://localhost:3333"}
+
+3. **Executar os Testes**
+
+  Para rodar os testes, use o comando::
+   
+  ```bash
+  npx cypress open
+
+
+##Comandos Personalizados##
+
